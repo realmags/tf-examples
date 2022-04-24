@@ -42,10 +42,19 @@
             android:layout_alignParentTop="true"
             android:background="@color/tfe_semi_transparent">
 
-            <ImageView
+            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/tfl2_logo" />
+                android:layout_gravity="center"
+                android:text="Senyas"
+                android:textColor="#F2F2F2"
+                android:textFontWeight="900"
+                android:textSize="30dp" />
+
+            <!--            <ImageView-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:src="@drawable/tfl2_logo" />-->
         </androidx.appcompat.widget.Toolbar>
 
     </RelativeLayout>
